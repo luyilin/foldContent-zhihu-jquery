@@ -1,0 +1,14 @@
+.idea/
+*__gen.go
+*__ignore.go
+*.swp
+*.swo
+/bin
+.DS_Store
+/pkg
+/log
+*.rdb
+/tmp
+*.apk
+node_modules/
+npm-debug.log
