@@ -8,9 +8,7 @@
 
 src/ 目录下是🌰
 
-main:
-
-dist/foldcontent_jquery.min.js
+main: dist/foldcontent_jquery.min.js
 
 ## Install
 
@@ -20,35 +18,9 @@ $ npm install foldcontent-zhihu-jquery@">=1.0.1" --save
 
 ## Usage
 
-### 引用 jquery 写法 
+### 方法一: webpack 加载
 
-#### 方法一: script 标签引入 dist/目录下的 foldcontent_jquery.min.js 文件
-
-##### HTML
-
-```HTML
-<div class="foldcontent-panel">
-    <div class="part-content"><!--此处是部分内容--></div>
-    <div class="all-content"><!--此处是全部内容--></div>
-</div>
-<!-- ... -->
-<script src="../demo/js/01-jquery-1.11.3.min.js"></script>
-<script src="foldcontent_jquery.min.js"></script>
-```
-
-##### JS
-
-```JS
-$('.unfold').foldContentPlugin({
-                'btnBg': 'lightpink',
-                'btnColor': '#fff',
-                'paddingTop': '2px'
-            });
-```
-
-#### 方法二: webpack 加载
-
-##### HTML
+#### HTML
 
 ```HTML
 <div class="foldcontent-panel">
@@ -58,7 +30,7 @@ $('.unfold').foldContentPlugin({
 <!-- ... -->
 ```
 
-##### js
+#### js
 ```
 require('foldcontent-zhihu');
 $(function () {
@@ -68,7 +40,7 @@ $(function () {
 });
 ```
 
-###### webpack
+#### webpack
 
 ```
 // webpack 全局加载 jquery 的一种方法
@@ -82,7 +54,33 @@ $(function () {
     })
 ]
 ```
-#### Options
+
+### 方法二: script 标签引入 dist/目录下的 foldcontent_jquery.min.js 文件
+
+#### HTML
+
+```HTML
+<div class="foldcontent-panel">
+    <div class="part-content"><!--此处是部分内容--></div>
+    <div class="all-content"><!--此处是全部内容--></div>
+</div>
+<!-- ... -->
+<script src="../demo/js/01-jquery-1.11.3.min.js"></script>
+<script src="foldcontent_jquery.min.js"></script>
+```
+
+#### JS
+
+```JS
+$('.unfold').foldContentPlugin({
+                'btnBg': 'lightpink',
+                'btnColor': '#fff',
+                'paddingTop': '2px'
+            });
+```
+
+
+## Options
 
 ```JS
 {
