@@ -35,7 +35,9 @@ $ npm install foldcontent-zhihu-jquery@">=1.0.1" --save
 require('foldcontent-zhihu');
 $(function () {
     $('.unfold').foldContentPlugin({
-    // ...
+        'btnBg': 'lightpink',
+        'btnColor': '#fff',
+        'paddingTop': '2px'
     });
 });
 ```
@@ -73,10 +75,8 @@ $(function () {
 
 ```JS
 $('.unfold').foldContentPlugin({
-                'btnBg': 'lightpink',
-                'btnColor': '#fff',
-                'paddingTop': '2px'
-            });
+        // ...
+});
 ```
 
 
