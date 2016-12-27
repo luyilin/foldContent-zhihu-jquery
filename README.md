@@ -8,6 +8,8 @@
 
 ## Introduction
 
+[Demo](https://luyilin.github.io/foldcontent-zhihu-jquery/src/demo_jquery.html)
+
 src/ 目录下是🌰
 
 main: dist/foldcontent_jquery.min.js
