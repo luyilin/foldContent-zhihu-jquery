@@ -1,7 +1,7 @@
 # foldcontent-zhihu-jquery
 
 [![Build Status](https://img.shields.io/travis/luyilin/foldcontent-zhihu-jquery.svg?style=flat)](https://travis-ci.org/luyilin/foldcontent-zhihu-jquery)
-[![npm](https://img.shields.io/npm/dt/foldcontent-zhihu-jquery.svg)](https://www.npmjs.com/package/foldcontent-zhihu)
+[![npm](https://img.shields.io/npm/dm/foldcontent-zhihu-jquery.svg)](https://www.npmjs.com/package/foldcontent-zhihu)
 
 > 用 jquery 实现知乎收起答案功能
 
